@@ -1,0 +1,110 @@
+section{
+    position: relative;
+    background-color: #121321;
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   color: #ffff;
+   
+    
+   justify-content: center;
+}
+section::before{
+    content:"";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    background-color: #9c27b0;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+}
+section::after{
+    content:"";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+    background-color: #9c27b0;
+
+}
+      
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+height: 225px;
+width: 375px;
+z-index: 100;
+
+}
+.card{
+background-color: rgb(255, 255, 255,0.1);
+height: 100%;
+width: 100%;
+border-radius: 25px;
+box-shadow: 0 25px 45px  rgb(0, 0, 0,0.25);
+backdrop-filter: blur(25px);
+border: 1px solid rgb(255, 255, 255,0.1);
+margin: -15px;
+padding: 10px;
+}
+.logo>img{
+    width: 48px;
+    
+}
+h5{
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.chip{
+    width: 50px;
+}
+
+ header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 13px;
+    
+}
+ .chip{
+    position: relative;
+    left: 50% ;
+ }
+ .the-tex{
+    position: relative;
+    left: 15px;
+ }
+ .card-detail{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+ }
+ .name-number{
+   position: relative;
+   left: 20px;
+   
+ }
+ .number{
+margin-top: -19px;
+ }
+ h5.number{
+    letter-spacing: 1px;
+ }
+ .valid-date{
+    margin-right: 20px;
+    
+ }
+ .date{
+    margin-top: -20px;
+ } 
